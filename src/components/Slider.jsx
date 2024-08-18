@@ -20,11 +20,11 @@ const Slider = () => {
         navigation
         pagination={{ dynamicBullets: true }}
         // scrollbar={{ draggable: true }}
-        className="relative z-0"
+        className="!z-0 "
       >
-        <SwiperSlide className="slideImg1 relative z-0">
+        <SwiperSlide className="slideImg1  !z-0">
           <div className="absolute inset-0 bg-black opacity-50"></div>
-          <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
+          <div className="absolute inset-0 flex flex-col justify-center items-center text-center z-0">
             <h2 className="text-red-500 text-xl md-text-2xl font-semibold mb-6">
               {" "}
               The Science of Medicine. The Art of Healing.
@@ -42,9 +42,9 @@ const Slider = () => {
           </div>
         </SwiperSlide>
 
-        <SwiperSlide className="slideImg2 relative">
+        <SwiperSlide className="slideImg2 relative z-0">
           <div className="absolute inset-0 bg-black opacity-50"></div>
-          <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
+          <div className="absolute inset-0 flex flex-col justify-center items-center text-center z-0">
             <h2 className="text-red-500 text-xl md-text-2xl font-semibold mb-6">
               {" "}
               The Science of Medicine. The Art of Healing.
@@ -62,9 +62,9 @@ const Slider = () => {
           </div>
         </SwiperSlide>
 
-        <SwiperSlide className="slideImg3 relative">
+        <SwiperSlide className="slideImg3 relative z-0">
           <div className="absolute inset-0 bg-black opacity-50"></div>
-          <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
+          <div className="absolute inset-0 flex flex-col justify-center items-center text-center z-0">
             <h2 className="text-red-500 text-xl md-text-2xl font-semibold mb-6">
               {" "}
               The Science of Medicine. The Art of Healing.
