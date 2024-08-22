@@ -6,7 +6,7 @@ import { RiCupFill } from "react-icons/ri";
 
 const Counter = () => {
   return (
-    <div className="counter1 py-12 mt-5 z-0">
+    <div className="counter1 py-12 mt-5  z-0">
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center text-white">
         <div className="flex flex-col items-center">
           <IoIosHappy className="text-7xl text-red-500 mb-4" />
